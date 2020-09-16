@@ -1,0 +1,181 @@
+html {
+    font-size: 15px;
+}
+body {
+    overflow-x: auto;
+    overflow-y: auto;
+    background: white;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0; 
+}
+
+.row {
+    display: table;
+    width: 100%;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    border-spacing: 0rem;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.column_left {
+    display: table-cell;
+    text-align: center;
+    vertical-align: top;
+    height: 100%;
+    width: 45vw;
+    background-color: white;
+    overflow: auto;
+    padding-right: 10vw;
+}
+.column_right {
+    display: table-cell;
+    text-align: center;
+    height: 100%;
+    width: 45vw;
+    vertical-align: middle;
+    background-color: white;
+}
+.card {
+    -webkit-box-shadow: 0px 0px 0.5rem 0px rgba(143,143,143,1);
+    -moz-box-shadow: 0px 0px 0.5rem 0px rgba(143,143,143,1);
+    box-shadow: 0px 0px 0.5rem 0px rgba(143,143,143,1);
+    /* width: 100%; */
+    width: 30rem;
+    height: 28.7rem;
+    border-radius: 2rem;
+    text-align: center;
+    vertical-align: top;
+    background-color: white;
+    /* margin-right: 0vw; */
+    margin-left: auto;
+}
+.card input {
+    outline-width: 0rem;
+    border-radius: 1rem;
+    height: 3rem;
+    width: 27rem;
+    font-size: 1.2rem;
+    padding-left: 1rem;
+    border-color: transparent;
+    border-style: solid;
+    background-color: whitesmoke;
+}
+.card input::selection {
+    color: white;
+    background: #2196f3;
+}
+.button_2 {
+    outline-width: 0rem;
+    background-color: #2196f3;
+    color: white;
+    width: 28rem;
+    border-radius: 1rem;
+    height: 4rem;
+    margin-top: 4rem;
+    padding: 0;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.button_2:hover {
+    -webkit-box-shadow: 0px 0px 0.5rem 0px rgba(143,143,143,1);
+    -moz-box-shadow: 0px 0px 0.5rem 0px rgba(143,143,143,1);
+    box-shadow: 0px 0px 0.5rem 0px rgba(143,143,143,1);
+}
+.button_3 {
+    outline-width: 0rem;
+    background-color: white;
+    color: #2196f3;
+    width: 28rem;
+    border-radius: 1rem;
+    height: 4rem;
+    margin-top: 1rem;
+    padding: 0;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.button_3:hover {
+    background-color: whitesmoke;
+}
+.id {
+    text-align: left;
+    color: black;
+    padding-top: 1.2rem;
+    padding-left: 2rem;
+    font-size: 1.2rem;
+}
+.id::selection {
+    color: white;
+    background: #2196f3;
+}
+.pw {
+    text-align: left;
+    color: black;
+    padding-top: 0rem;
+    padding-left: 2rem;
+    font-size: 1.2rem;
+}
+.pw::selection {
+    color: white;
+    background: #2196f3;
+}
+.button_1 {
+    background-color: whitesmoke;
+    border-radius: 1rem;
+    color: #2196f3;
+    border: none;
+    border-style: solid;
+    border-color: transparent;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 75%;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: inline-block;
+}
+.button_1:hover {
+    -webkit-box-shadow: 0px 0px 0.5rem 0px rgba(143,143,143,1);
+    -moz-box-shadow: 0px 0px 0.5rem 0px rgba(143,143,143,1);
+    box-shadow: 0px 0px 0.5rem 0px rgba(143,143,143,1);
+}
+.button_1:active {
+    width: 74%;
+}
+.space_h_10 {
+    height: 10rem;
+}
+.space_h_3 {
+    height: 3rem;
+}
+.space_h_1 {
+    height: 1rem;
+}
+.space_h_2 {
+    height: 2rem;
+}
+.welcome {
+    color: black;
+    font-size: 4rem;
+    text-align: left;
+}
+.welcome::selection {
+    color: white;
+    background: #2196f3;
+}
+.welcome p {
+    color: #2196f3;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+.welcome p::selection {
+    color: white;
+    background: #2196f3;
+}
